@@ -3,19 +3,19 @@ export default [
     {
         title: "Note.it",
         imgUrl: "/portfolio/assets/noteit.png",
-        stack: ["Swift", "SwiftUI", "iOS", "macOS"],
+        stack: ["Code Editor", "Swift", "SwiftUI", "iOS", "macOS"],
         link: "https://github.com/markydoodled/Note.it"
     },
     {
-        title: "DW Episode Guide",
-        imgUrl: "/portfolio/assets/dwepguide.png",
-        stack: ["Swift", "SwiftUI", "iOS", "macOS", "tvOS", "watchOS"],
-        link: "https://github.com/markydoodled/DW-Episode-Guide"
+        title: "Plurality",
+        imgUrl: "/portfolio/assets/plurality.png",
+        stack: ["Multiple Personality Tracker", "Swift", "SwiftUI", "iOS", "macOS", "watchOS"],
+        link: "https://github.com/markydoodled/Plurality"
     },
     {
-        title: "Monitor.it",
-        imgUrl: "/portfolio/assets/monitorit.png",
-        stack: ["Swift", "SwiftUI", "watchOS"],
-        link: "https://github.com/markydoodled/Monitor.it"
+        title: "Brushr",
+        imgUrl: "/portfolio/assets/brushr.png",
+        stack: ["Toothbrushing Timer", "Swift", "SwiftUI", "watchOS"],
+        link: "https://github.com/markydoodled/Brushr"
     }
 ]
