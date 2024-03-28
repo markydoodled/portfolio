@@ -11,6 +11,10 @@ function Intro() {
             <p className="text-base md:text-xl mb-3 font-medium">Digital Tinkerer</p>
             {/*Intro Personal Description Summary Text With Styling*/}
             <p className="text-sm max-w-xl mb-6 font-bold">Hi, I’m Mark. I’m Interested In Developing For The Apple Ecosystem. Currently I Am Learning Swift And SwiftUI. I’m Always Looking To Collaborate On SwiftUI Projects With The Community To Advance My Skills, And Am Always Happy To Help With Trying To Diagnose Bugs Or Suggest Ideas.</p>
+            {/*GitHub Profile Link*/}
+            <a href="https://github.com/markydoodled/" target="_blank" rel="noreferrer" className="text-sm md:text-base font-bold text-blue-500 dark:text-blue-300 hover:underline">GitHub Profile</a>
+            {/*GitHub Sponsor Link*/}
+            <iframe src="https://github.com/sponsors/markydoodled/button" title="Sponsor markydoodled" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
         </div>
     )
 }
