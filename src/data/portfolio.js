@@ -1,21 +1,21 @@
 {/*Portfolio Data To Feed Into Portfolio Item*/}
 export default [
     {
-        title: "Note.it",
-        imgUrl: "/portfolio/assets/noteit.png",
+        title: "QuickCode",
+        imgUrl: "/portfolio/assets/quickcode.png",
         stack: ["Code Editor", "Swift", "SwiftUI", "iOS", "macOS"],
-        link: "https://github.com/markydoodled/Note.it"
+        link: "https://github.com/markydoodled/QuickCode"
     },
     {
-        title: "Plurality",
-        imgUrl: "/portfolio/assets/plurality.png",
-        stack: ["Multiple Personality Tracker", "Swift", "SwiftUI", "iOS", "macOS", "watchOS"],
-        link: "https://github.com/markydoodled/Plurality"
+        title: "Top Row",
+        imgUrl: "/portfolio/assets/toprow.png",
+        stack: ["Menu Bar Note", "Swift", "SwiftUI", "macOS"],
+        link: "https://github.com/markydoodled/Top-Row"
     },
     {
         title: "Brushr",
         imgUrl: "/portfolio/assets/brushr.png",
-        stack: ["Toothbrushing Timer", "Swift", "SwiftUI", "watchOS"],
+        stack: ["Toothbrushing Timer", "Swift", "SwiftUI", "iOS", "watchOS"],
         link: "https://github.com/markydoodled/Brushr"
     }
 ]
