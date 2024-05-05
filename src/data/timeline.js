@@ -1,7 +1,13 @@
 {/*Timeline Data To Feed Into Timeline Item*/}
 export default [
     {
-        year: "Today",
+        year: "2024",
+        title: "First App On The App Store",
+        duration: "4 Weeks",
+        details: "I Published My First App, Brushr, A Toothbrushing Timer App, To The App Store. This Was A Big Milestone For Me As I Had Never Done This Before. I Used SwiftUI And Swift To Make The App For iOS And The Apple Watch.",
+    },
+    {
+        year: "2022",
         title: "College App Development Student",
         duration: "Current",
         details: "Currently I Am Studying Application Development At College, With The Hopes That I Can Gain A Job Coding Something In The Future (With More Languages And Experience Under My Belt).",
