@@ -25,46 +25,46 @@ export default [
         link: "https://github.com/markydoodled/Next-Up"
     },
     {
-        title: "",
-        imgUrl: "/portfolio/assets/.png",
-        stack: ["iOS"],
-        link: "https://github.com/markydoodled/"
+        title: "Wave",
+        imgUrl: "/portfolio/assets/wave.png",
+        stack: ["Photo Editor", "Swift", "SwiftUI", "iOS", "macOS"],
+        link: "https://github.com/markydoodled/Wave"
     },
     {
-        title: "",
-        imgUrl: "/portfolio/assets/.png",
-        stack: ["iOS"],
-        link: "https://github.com/markydoodled/"
+        title: "PowerWatch",
+        imgUrl: "/portfolio/assets/powerwatch.png",
+        stack: ["Battery Monitoring", "Swift", "SwiftUI", "iOS", "watchOS"],
+        link: "https://github.com/markydoodled/PowerWatch"
     },
     {
-        title: "",
-        imgUrl: "/portfolio/assets/.png",
-        stack: ["iOS"],
-        link: "https://github.com/markydoodled/"
+        title: "Plurality",
+        imgUrl: "/portfolio/assets/plurality.png",
+        stack: ["Personality Tracker", "Swift", "SwiftUI", "iOS", "macOS", "watchOS"],
+        link: "https://github.com/markydoodled/Plurality"
     },
     {
-        title: "",
-        imgUrl: "/portfolio/assets/.png",
-        stack: ["iOS"],
-        link: "https://github.com/markydoodled/"
+        title: "Lights Out",
+        imgUrl: "/portfolio/assets/lightsout.png",
+        stack: ["Dark Mode Web Extension", "Swift", "SwiftUI", "iOS", "macOS", "visionOS"],
+        link: "https://github.com/markydoodled/Lights-Out"
     },
     {
-        title: "",
-        imgUrl: "/portfolio/assets/.png",
-        stack: ["iOS"],
-        link: "https://github.com/markydoodled/"
+        title: "Marking Down",
+        imgUrl: "/portfolio/assets/markingdown.png",
+        stack: ["Markdown Editor", "Swift", "SwiftUI", "iOS", "macOS"],
+        link: "https://github.com/markydoodled/Marking-Down"
     },
     {
-        title: "",
-        imgUrl: "/portfolio/assets/.png",
-        stack: ["iOS"],
-        link: "https://github.com/markydoodled/"
+        title: "Single Track",
+        imgUrl: "/portfolio/assets/singletrack.png",
+        stack: ["Focus Timer", "Swift", "SwiftUI", "iOS", "macOS", "visionOS"],
+        link: "https://github.com/markydoodled/Single-Track"
     },
     {
-        title: "",
-        imgUrl: "/portfolio/assets/.png",
-        stack: ["iOS"],
-        link: "https://github.com/markydoodled/"
+        title: "AllerTrack",
+        imgUrl: "/portfolio/assets/allertrack.png",
+        stack: ["Allergy Trigger Detector", "Swift", "SwiftUI", "iOS"],
+        link: "https://github.com/markydoodled/AllerTrack"
     },
     {
         title: "",
