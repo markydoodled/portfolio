@@ -15,9 +15,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $body = "You have received a new submission from your portfolio contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email\n\nMessage:\n$message";
 
     if(mail($to, $subject, $body, $headers)) {
-        header('Location: mail_handler.php?message=Email Sent Successfully');
+        header('Location: index.html?message=Email Sent Successfully');
     } else {
-        header('Location: mail_handler.php?message=Email Could Not Be Sent');
+        header('Location: index.html?message=Email Could Not Be Sent');
     }
 
     exit;
