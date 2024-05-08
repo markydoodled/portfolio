@@ -23,7 +23,7 @@ export default [
         imgUrl: "/assets/nextup.png",
         stack: ["Menu Bar Calendar", "Swift", "SwiftUI", "macOS"],
         link: "https://github.com/markydoodled/Next-Up"
-    },
+    }/*,
     {
         title: "Wave",
         imgUrl: "/assets/wave.png",
@@ -65,5 +65,5 @@ export default [
         imgUrl: "/assets/allertrack.png",
         stack: ["Allergy Trigger Detector", "Swift", "SwiftUI", "iOS"],
         link: "https://github.com/markydoodled/AllerTrack"
-    }
+    }*/
 ]
