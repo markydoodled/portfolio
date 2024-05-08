@@ -12,7 +12,7 @@ function Contact() {
                     {/*Input Name Field With Styling*/}
                     <input type="text" name="name" placeholder="Name..." className="p-2 bg-transparent border-2 rounded-md focus:outline-none" />
                     {/*Input Email Field With Styling*/}
-                    <input type="text" name="email" placeholder="Email..." className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none" />
+                    <input type="email" name="email" placeholder="Email..." className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none" required />
                     {/*Input Message Field With Styling*/}
                     <textarea name="message" placeholder="Message..." rows="10" className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none" />
                     {/*Submit Button With Styling*/}
