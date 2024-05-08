@@ -12,7 +12,9 @@ function Intro() {
             {/*Intro Personal Description Summary Text With Styling*/}
             <p className="text-sm max-w-xl mb-6 font-bold">Hi, I’m Mark. I’m Interested In Developing For The Apple Ecosystem. Currently I Am Learning Swift And SwiftUI. I’m Always Looking To Collaborate On SwiftUI Projects With The Community To Advance My Skills, And Am Always Happy To Help With Trying To Diagnose Bugs Or Suggest Ideas.</p>
             {/*GitHub Profile Link*/}
-            <a href="https://github.com/markydoodled/" target="_blank" rel="noreferrer" className="inline-block px-2 py-1 text-sm md:text-base font-semibold bg-gradient-to-r from-orange-400 to-purple-500 dark:bg-gradient-to-r from-orange-400 to-purple-500 text-stone-900 rounded-md text-white hover:underline">GitHub Profile</a>
+            <a href="https://github.com/markydoodled/" target="_blank" rel="noreferrer" className="inline-block px-2 py-1 text-sm md:text-base font-semibold bg-gradient-to-r from-orange-400 to-purple-500 dark:bg-gradient-to-r from-orange-400 to-purple-500 text-stone-900 rounded-md text-white hover:underline">GitHub</a>
+            {/*LinkedIn Profile Link*/}
+            <a href="www.linkedin.com/in/mark-howard-2050a1252" target="_blank" rel="noreferrer" className="inline-block px-2 py-1 text-sm md:text-base font-semibold bg-gradient-to-r from-orange-400 to-purple-500 dark:bg-gradient-to-r from-orange-400 to-purple-500 text-stone-900 rounded-md text-white hover:underline">LinkedIn</a>
         </div>
     )
 }
