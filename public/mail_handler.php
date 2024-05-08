@@ -12,6 +12,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $body = "You have received a new submission from your portfolio contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email\n\nMessage:\n$message";
 
-    mail($to, $subject, $body, $headers);
+    if(mail($to, $subject, $body, $headers)) {
+        header('Location: index.html');
+        exit;
+    }
 }
 ?>
