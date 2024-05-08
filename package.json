@@ -3,7 +3,7 @@
   "private": false,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://markydoodled.github.io/Portfolio/",
+  "homepage": "https://markydoodled.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
