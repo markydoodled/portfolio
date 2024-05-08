@@ -65,11 +65,5 @@ export default [
         imgUrl: "/portfolio/assets/allertrack.png",
         stack: ["Allergy Trigger Detector", "Swift", "SwiftUI", "iOS"],
         link: "https://github.com/markydoodled/AllerTrack"
-    },
-    {
-        title: "",
-        imgUrl: "/portfolio/assets/.png",
-        stack: ["iOS"],
-        link: "https://github.com/markydoodled/"
     }
 ]
