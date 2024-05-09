@@ -19,7 +19,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         header('Location: mail_handler.php?message=Email Could Not Be Sent');
     }
-
+    header('Location: index.html');
     exit;
 }
 
@@ -27,7 +27,4 @@ if(isset($_GET['message'])) {
     $message = $_GET['message'];
     echo "<script type='text/javascript'>alert('$message');</script>";
 }
-
-header('Location: index.html');
-exit;
 ?>
