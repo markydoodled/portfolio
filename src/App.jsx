@@ -44,23 +44,29 @@ function App() {
 	);
 
   return (
-	<>
-	{/*Button For Changing Theme*/}
-		<button type="button" onClick={handleThemeSwitch} className="fixed p-2 z-10 right-20 top-4 bg-gradient-to-r from-orange-400 to-purple-400 text-lg p-1 rounded-md">
-			{theme === "dark" ? sun : moon}
-		</button>
-		<div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
-			{/*Displaying Each Component Section*/}
-			<div className="max-w-5xl w-11/12 mx-auto">
-			<Intro></Intro>
-			<Portfolio></Portfolio>
-			<Timeline></Timeline>
-			<Contact></Contact>
-			<Footer></Footer>
-			</div>
-		</div>
-	</>
-  )
+  <>
+    <div className="flex justify-between items-center bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 p-4">
+      {/*Logo on the left*/}
+      <img src="/vite.svg" alt="Logo" className="h-16 w-16 p-4" />
+
+      {/*Button For Changing Theme on the right*/}
+      <button type="button" onClick={handleThemeSwitch} className="p-2 z-10 bg-gradient-to-r from-orange-400 to-purple-400 text-lg p-1 rounded-md">
+        {theme === "dark" ? sun : moon}
+      </button>
+    </div>
+
+    <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+      {/*Displaying Each Component Section*/}
+      <div className="max-w-5xl w-11/12 mx-auto">
+        <Intro></Intro>
+        <Portfolio></Portfolio>
+        <Timeline></Timeline>
+        <Contact></Contact>
+        <Footer></Footer>
+      </div>
+    </div>
+  </>
+)
 }
 
 export default App
