@@ -16,16 +16,17 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if(mail($to, $subject, $body, $headers)) {
         header('Location: mail_handler.php?message=Email Sent Successfully');
-        header('Location: index.html');
     } else {
         header('Location: mail_handler.php?message=Email Could Not Be Sent');
-        header('Location: index.html');
     }
     exit;
 }
 
-if(isset($_GET['message'])) {
-    $message = $_GET['message'];
-    echo "<script type='text/javascript'>alert('$message');</script>";
+if(isset($_GET['message']) && $_GET['message'] == 'Email Sent Successfully') {
+    echo '<p style="color: green; font-size: 20px;">' . $_GET['message'] . '</p>';
 }
+
+/*if(isset($_GET['message'])) {
+    $message = $_GET['message'];
+}*/
 ?>
