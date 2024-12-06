@@ -23,7 +23,7 @@ function Intro() {
             {/*Intro Summary Tag Text With Styling*/}
             <p className="text-base md:text-xl mb-3 font-medium">Digital Tinkerer</p>
             {/*Intro Personal Description Summary Text With Styling*/}
-            <p className="text-sm max-w-xl mb-6 font-bold">Hi, I’m Mark. I’m Interested In Developing For The Apple Ecosystem. Currently I Am Learning Swift And SwiftUI. I’m Always Looking To Collaborate On SwiftUI Projects With The Community To Advance My Skills, And Am Always Happy To Help With Trying To Diagnose Bugs Or Suggest Ideas.</p>
+            <p className="text-sm max-w-xl mb-6 font-bold">Hi, I’m Mark! I’m Interested In And Develop For The Apple Ecosystem. Currently I Use Swift And SwiftUI. I’m Always Looking To Collaborate On SwiftUI Projects With The Community To Advance My Skills, And I'm Always Happy To Help With Diagnosing Bugs Or Suggesting Ideas. Contact Me To Commission My Services!</p>
             <div className="flex space-x-4">
                 {/*GitHub Profile Link*/}
                 <a href="https://github.com/markydoodled/" target="_blank" rel="noreferrer" className="flex items-center inline-block px-2 py-1 text-sm md:text-base font-semibold bg-gradient-to-r from-orange-400 to-purple-500 dark:bg-gradient-to-r from-orange-400 to-purple-500 text-stone-900 rounded-md text-white hover:underline drop-shadow-md">
