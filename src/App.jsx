@@ -65,6 +65,18 @@ function App() {
 			background-size: 600% 600%;
 			animation: gradientFlow 5s ease infinite;
 		}
+		.scroll-arrow {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: relative;
+				bottom: 20px;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 7rem;
+				height: 7rem;
+				fill: url(#gradient);
+			}
 		`}
 	</style>
       {/*Logo on the left*/}
@@ -80,6 +92,19 @@ function App() {
       {/*Displaying Each Component Section*/}
       <div className="max-w-5xl w-11/12 mx-auto">
         <Intro></Intro>
+		<div className="h-24 relative"></div>
+		<svg width="0" height="0">
+			<defs>
+				<linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+					<stop offset="0%" style={{ stopColor: "#fb923c", stopOpacity: 1 }} />
+					<stop offset="100%" style={{ stopColor: "#a855f7", stopOpacity: 1 }} />
+				</linearGradient>
+			</defs>
+		</svg>
+		<svg className="scroll-arrow drop-shadow-md gradient-flow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+			<path d="M12 16l-6-6h12l-6 6z"/>
+		</svg>
+		<div className="h-72 relative"></div>
         <Portfolio></Portfolio>
         <Timeline></Timeline>
         <Contact></Contact>
