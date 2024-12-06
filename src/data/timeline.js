@@ -31,12 +31,6 @@ export default [
         details: "Coding With Scratch (To Make A Very, Very Simple Game) In Primary School, During IT Lessons.",
     },
     {
-        year: "2011",
-        title: "Start Discovering Windows",
-        duration: "2 Years",
-        details: "I Started To Understand What Windows Was On The Backend, Looking A System Folder Structure And Various Other System Components.",
-    },
-    {
         year: "2009",
         title: "Discovering Computers And The Internet",
         duration: "2 Years",
