@@ -17,11 +17,11 @@ export default [
         imgUrl: "/assets/nextup.png",
         stack: ["Menu Bar Calendar", "Swift", "SwiftUI", "macOS"],
         link: "https://github.com/markydoodled/Next-Up"
-    },
+    }/*,
     {
         title: "Brushr",
         imgUrl: "/assets/brushr.png",
         stack: ["Toothbrushing Timer", "Swift", "SwiftUI", "iOS", "watchOS"],
         link: "https://github.com/markydoodled/Brushr"
-    }
+    }*/
 ]
