@@ -46,11 +46,32 @@ function App() {
   return (
   <>
     <div className="flex justify-between items-center bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 p-4">
+	<style>
+		{`
+		@keyframes gradientFlow {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+
+		.gradient-flow {
+			background: linear-gradient(270deg, orange-400, purple-500);
+			background-size: 600% 600%;
+			animation: gradientFlow 5s ease infinite;
+		}
+		`}
+	</style>
       {/*Logo on the left*/}
       <img src="/vite.svg" alt="Logo" className="h-16 w-16 p-4" />
 
       {/*Button For Changing Theme on the right*/}
-      <button type="button" onClick={handleThemeSwitch} className="p-2 z-10 bg-gradient-to-r from-orange-400 to-purple-400 text-lg p-1 rounded-md drop-shadow-md">
+      <button type="button" onClick={handleThemeSwitch} className="p-2 z-10 bg-gradient-to-r from-orange-400 to-purple-400 text-lg p-1 rounded-md drop-shadow-md gradient-flow">
         {theme === "dark" ? sun : moon}
       </button>
     </div>

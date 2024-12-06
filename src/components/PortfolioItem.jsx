@@ -4,7 +4,7 @@ function PortfolioItem({title, imgUrl, stack, link}) {
    {/*Portfolio Item UI And Styling With Data To Iterate*/}
     return (
       //Clickable Link To GitHub Repo For Project
-        <a href={link} target="_blank" rel="noopener noreferrer" className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden">
+        <a href={link} target="_blank" rel="noopener noreferrer" className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden drop-shadow-md">
          {/*Project Cover Image URL To Load With Styling*/}
          <img src={imgUrl} alt="portfolio" className="w-full h-55 md:h-55 object-cover cursor-pointer" />
          <div className="w-full p-4">

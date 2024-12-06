@@ -3,11 +3,18 @@ import React from "react";
 function Intro() {
     return (
         <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
+            <style>
+                {`
+                .gradient-shadow {
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.1), 0 7px 20px rgba(255, 165, 0, 0.5), 0 10px 30px rgba(128, 0, 128, 0.5);
+                }
+                `}
+            </style>  
             {/* Profile Photo */}
             <img 
                 src="/assets/profile.png" 
                 alt="Profile Photo" 
-                className="w-32 h-32 rounded-full mb-4"
+                className="w-32 h-32 rounded-full mb-4 gradient-shadow"
             />
             {/*Intro Big Title Name Text With Styling*/}
             <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">Mark Howard</h1>
