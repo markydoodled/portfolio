@@ -8,7 +8,7 @@ function TimelineItem({year, title, duration, details}) {
             <div className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-stone-900 dark:bg-stone-700" />
             <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
                {/*Year Box With Styling*/}
-               <span className="inline-block px-2 py-1 font-semibold text-white bg-gradient-to-r from-orange-400 to-purple-500 dark:bg-gradient-to-r from-orange-400 to-purple-500 text-stone-900 rounded-md">
+               <span className="inline-block px-2 py-1 font-semibold text-white bg-gradient-to-r from-orange-400 to-purple-500 dark:bg-gradient-to-r from-orange-400 to-purple-500 text-stone-900 rounded-md drop-shadow-md">
                   {year}
                </span>
                {/*Event Title Text With Styling*/}

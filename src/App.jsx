@@ -50,7 +50,7 @@ function App() {
       <img src="/vite.svg" alt="Logo" className="h-16 w-16 p-4" />
 
       {/*Button For Changing Theme on the right*/}
-      <button type="button" onClick={handleThemeSwitch} className="p-2 z-10 bg-gradient-to-r from-orange-400 to-purple-400 text-lg p-1 rounded-md">
+      <button type="button" onClick={handleThemeSwitch} className="p-2 z-10 bg-gradient-to-r from-orange-400 to-purple-400 text-lg p-1 rounded-md drop-shadow-md">
         {theme === "dark" ? sun : moon}
       </button>
     </div>
