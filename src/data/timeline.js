@@ -9,7 +9,7 @@ export default [
     {
         year: "2022",
         title: "College App Development Student",
-        duration: "Current",
+        duration: "2 Years",
         details: "Currently I Am Studying Application Development At College, With The Hopes That I Can Gain A Job Coding Something In The Future (With More Languages And Experience Under My Belt).",
     },
     {
