@@ -92,7 +92,7 @@ function App() {
       {/*Displaying Each Component Section*/}
       <div className="max-w-5xl w-11/12 mx-auto">
         <Intro></Intro>
-		<div className="h-24 relative"></div>
+		<div className="h-12 relative"></div>
 		<svg width="0" height="0">
 			<defs>
 				<linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -104,7 +104,7 @@ function App() {
 		<svg className="scroll-arrow drop-shadow-md gradient-flow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 			<path d="M12 16l-6-6h12l-6 6z"/>
 		</svg>
-		<div className="h-72 relative"></div>
+		<div className="h-84 relative"></div>
         <Portfolio></Portfolio>
         <Timeline></Timeline>
         <Contact></Contact>
